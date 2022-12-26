@@ -1,12 +1,11 @@
-import { useState } from 'react'
-
+import Navbar from "@/pages/navbar";
+import { useState } from 'react';
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [selectedPage, setSelectedPage] = useState<string>('home');
   return (
-    <div className="app">
-      App
+    <div className="app bg-gray-20">
+      <Navbar selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
     </div>
   )
 }
