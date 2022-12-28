@@ -1,0 +1,13 @@
+npm create vite@latest
+//Name your project
+//Select a framework
+//Select variant
+npm install
+npm i framer-motion react-anchor-link-smooth-scroll@1.0.12 @heroicons/react 
+npm i -D react-anchor-link-smooth-scroll@1.0.12 @types/node
+//@ is configured in vite.config and as well as tsconfig.json
+npm i -D tailwindcss postcss autoprefixer
+//Follow the steps here https://tailwindcss.com/docs/installation
+npm i -D prettier prettier-plugin-tailwindcss
+//Create prettier.config.cjs File in main directory
+//Copy paste config file content
